@@ -1,6 +1,6 @@
 package model;
 
-import controller.MaqueiroController;
+
 
 public class Maqueiro extends Funcionario{
     private boolean statusDisponibilidade;

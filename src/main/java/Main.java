@@ -54,7 +54,6 @@ public class Main {
                     }while (opcao != 5);
 
                 } else if (funcionarioLogado instanceof Atendente) {
-                    Atendente atendente = (Atendente) funcionarioLogado;
                     int opcao;
                     System.out.println("***************MENU ATENDENTE***************");
                     do {

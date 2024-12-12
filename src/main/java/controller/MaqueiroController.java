@@ -150,7 +150,7 @@ public class MaqueiroController {
 
         System.out.println("INCIDENTE REGISTRADO COM SUCESSO!");
         System.out.println("Paciente:" + transporteFinalizado.getPaciente().getNome() + " | Local Final -> " + transporteFinalizado.getLocalFinal());
-        System.out.println("Incidente durante transporte: ");
+        System.out.println("Incidente durante transporte: " + transporteFinalizado.getObservacao());
 
     }
 }
