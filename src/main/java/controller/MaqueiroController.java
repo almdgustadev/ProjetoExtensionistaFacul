@@ -16,6 +16,10 @@ public class MaqueiroController {
             this.atendenteController = atendenteController;
         }
 
+        public void setInput(Scanner input){
+            this.input = input;
+        }
+
     public void ordenarSolicitacoesPorUrgencia(AtendenteController atendenteController){
         List<Transporte> solicitacoesMaqueiros = atendenteController.getSolicitacoesMaqueiros();
 
