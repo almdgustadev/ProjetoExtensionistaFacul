@@ -116,7 +116,7 @@ class MaqueiroControllerTest {
     }
 
     @Test
-    void registrarObservacaoTransporte_deveRegistrarObservacaoComSucesso() {
+    void registrarObservacaoTransporte_deveRegistrarObservacao() {
         List<Transporte> solicitacoesMaqueiros = new ArrayList<>();
         Paciente paciente1 = new Paciente();
         paciente1.setNome("João");
